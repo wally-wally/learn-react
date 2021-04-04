@@ -20,6 +20,7 @@ class Toggle extends React.Component {
     super(props);
     console.log(props);
     console.log(this.props); // super(); 로 작성하면 undefined가 출력됨
+    // 즉, constructor 안에서 props를 접근하고 싶을 때 super(props);를 하면 된다.
     this.state = {isToggleOn: true};
   }
 
