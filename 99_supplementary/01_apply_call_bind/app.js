@@ -1,4 +1,4 @@
-const user = {
+const obj = {
   'name': 'wally',
   'age': 28,
 };
